@@ -12,6 +12,13 @@ h3
 p
     font-family: Georgia
 
+footer
+    background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%)
+
+    h2
+        margin-top: 81px
+        margin-bottom: 61px
+
 .container
     width: 1440px
     display: flex
@@ -19,11 +26,15 @@ p
     align-items: center
     flex-direction: column    
 
-    &_main
+    &_main,
+    &_footer
         display: flex
         flex-direction: column
         margin-top: 106px
         width: 944px
+    
+    &_footer
+        margin-top: 0
 
 .header
     display: flex
@@ -53,6 +64,7 @@ p
             box-sizing: border-box
 
 .block-expectation
+    margin-bottom: 129px
     h2
         margin-top: 0
     
@@ -96,7 +108,7 @@ p
 
 .block-portfolio
     h2
-        margin-top: 129px
+        margin-top: 0
         margin-bottom: 63px
 
     &_odd,
@@ -130,3 +142,46 @@ p
             opacity: 0.8
             font-size: 16px
             line-height: 24px
+        
+.footer-side
+    display: flex
+    justify-content: space-between
+
+    &_left
+        width: 304px
+
+        p
+            font-size: 16px
+            line-height: 24px
+    
+    &_right
+        width: 544px
+
+        form
+            display: flex
+            flex-flow: wrap column
+
+            input,
+            button
+                height: 48px
+                margin-bottom: 24px
+                border-radius: 4px
+                background-color: #fff
+            
+            button
+                margin-bottom: 0
+                background: #DD3E18
+
+                font-family: Helvetica
+                font-size: 16px
+                color: #FFFFFF
+                line-height: 24px
+
+                margin-bottom: 146px
+            
+            input,
+            textarea
+                font-family: Georgia
+                font-size: 16px
+                color: #000000
+                line-height: 24px

@@ -14,69 +14,56 @@
           %h2 Сергей Черкашин
           %p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium excepturi alias nesciunt quae possimus quisquam ut commodi non fuga quis qui nostrum iste quidem rerum autem mollitia laudantium, esse optio!
       .container_main
-        .block-expectation
-          %h2 Ожидания от ШРИ
-          .block-expectation-bricks
-            .block-expectation-bricks_big
-              %h3 Lorem
-              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam libero, nemo iusto harum doloribus quam hic quidem, nostrum delectus voluptates ratione dolor reiciendis corporis! Accusamus temporibus quas eos repellat debitis!
-            .block-expectation-bricks_small
-              %h3 Lorem
-              %p Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            .block-expectation-bricks_small
-              %h3 Lorem
-              %p Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            .block-expectation-bricks_big
-              %h3 Lorem
-              %p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, dolor. Repellendus dignissimos ut quam at fugiat suscipit fuga explicabo illum voluptatibus animi exercitationem inventore placeat magni accusantium nisi, nostrum nulla?
+        -# .block-expectation
+        -#   %h2 Ожидания от ШРИ
+        -#   .block-expectation-bricks
+        -#     .block-expectation-bricks_big
+        -#       %h3 Lorem
+        -#       %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam libero, nemo iusto harum doloribus quam hic quidem, nostrum delectus voluptates ratione dolor reiciendis corporis! Accusamus temporibus quas eos repellat debitis!
+        -#     .block-expectation-bricks_small
+        -#       %h3 Lorem
+        -#       %p Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        -#     .block-expectation-bricks_small
+        -#       %h3 Lorem
+        -#       %p Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        -#     .block-expectation-bricks_big
+        -#       %h3 Lorem
+        -#       %p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, dolor. Repellendus dignissimos ut quam at fugiat suscipit fuga explicabo illum voluptatibus animi exercitationem inventore placeat magni accusantium nisi, nostrum nulla?
         .block-portfolio
           %h2 Мои работы
           .block-portfolio_odd
-            %img(src="./img/" alt="" width="544" height="384")/
+            %img(src="./img/portfolio-react-main.png" alt="" width="544" height="384")/
             .block-portfolio_side
               %div
-                %h3 Lorem
-                %a(href="github.com") GitHub.com
-              %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
+                %h3 React test
+                %a(href="https://github.com/VonderVuflya/testReact") github.com
+              %p Тестовое задание сделанное на реакте
           .block-portfolio_even
-            %img(src="./img/" alt="" width="544" height="384")/
+            %img(src="./img/portfolio-html-main.png" alt="" width="544" height="384")/
             .block-portfolio_side
               %div
-                %h3 Lorem
-                %a(href="github.com") GitHub.com
-              %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
-          .block-portfolio_odd
-            %img(src="./img/" alt="" width="544" height="384")/
-            .block-portfolio_side
-              %div
-                %h3 Lorem
-                %a(href="github.com") GitHub.com
-              %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
-          .block-portfolio_even
-            %img(src="./img/" alt="" width="544" height="384")/
-            .block-portfolio_side
-              %div
-                %h3 Lorem
-                %a(href="github.com") GitHub.com
-              %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
-        %footer
-          %h2 Контактная информация
-          .footer_left-side
-            %p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque a, debitis minima excepturi praesentium saepe, cupiditate iusto vel quisquam, necessitatibus similique maiores? Ea asperiores quaerat nesciunt sequi odit eius sint.
-            %ul
-              %li
-                %a(href="#")
-              %li
-                %a(href="#")
-              %li
-                %a(href="#")
-              %li
-                %a(href="#")
-          .footer_right-side
-            %form(action="mailto:97serdj97@gmail.com" method="post" enctype="multipart/form-data" autocomplete="on")
-              %input(type="text" placeholder="Ваше имя" name="name" required)/
-              %input(type="mail" placeholder="Почтовый ящик" name="mail" required)/
-              %textarea(type="text" cols="30" rows="10" placeholder="Расскажите о себе" required)
-              %label Прикрепить ТЗ
-              %input(type="file")/
-              %button(type="submit" value="Отправить")Отправить
+                %h3 Html + Css
+                %a(href="https://github.com/VonderVuflya/test-task") github.com
+              %p Тестовое задание сделанное на html + css
+      %footer
+        .container
+          .container_footer
+            %h2 Контактная информация
+            .footer-side
+              .footer-side_left
+                %p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque a, debitis minima excepturi praesentium saepe, cupiditate iusto vel quisquam, necessitatibus similique maiores? Ea asperiores quaerat nesciunt sequi odit eius sint.
+                %ul
+                  %li
+                    %a(href="https://www.facebook.com/VonderVuflya") Facebook
+                  %li
+                    %a(href="https://github.com/VonderVuflya") Github
+                  %li
+                    %a(href="https://twitter.com/VonderVuflya") Twitter
+              .footer-side_right
+                %form(action="mailto:97serdj97@gmail.com" method="post" enctype="multipart/form-data" autocomplete="on")
+                  %input(type="text" placeholder="Ваше имя" name="name" required)/
+                  %input(type="mail" placeholder="Почтовый ящик" name="mail" required)/
+                  %textarea(type="text" cols="30" rows="10" placeholder="Расскажите о себе" required)
+                  %label Прикрепить ТЗ
+                  %input(type="file")/
+                  %button(type="submit" value="Отправить")Отправить 
