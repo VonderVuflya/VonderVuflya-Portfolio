@@ -8,11 +8,11 @@
   %body
     .container
       .header
-        %img(src="./img" alt="" width="552" height="672")/
+        %img(src="./img/profile_photo.jpg" alt="" width="552" height="672")/
         .header_main-info
           %label Джуниор Фроент-енд разработчик
           %h2 Сергей Черкашин
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum soluta voluptate consectetur minus necessitatibus officia quisquam repellat atque. Unde alias fuga suscipit enim obcaecati iste cumque esse. Assumenda, iure vitae?
+          %p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium excepturi alias nesciunt quae possimus quisquam ut commodi non fuga quis qui nostrum iste quidem rerum autem mollitia laudantium, esse optio!
       .container_main
         .block-expectation
           %h2 Ожидания от ШРИ
@@ -22,37 +22,46 @@
               %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam libero, nemo iusto harum doloribus quam hic quidem, nostrum delectus voluptates ratione dolor reiciendis corporis! Accusamus temporibus quas eos repellat debitis!
             .block-expectation-bricks_small
               %h3 Lorem
-              %p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, dolor. Repellendus dignissimos ut quam at fugiat suscipit fuga explicabo illum voluptatibus animi exercitationem inventore placeat magni accusantium nisi, nostrum nulla?
+              %p Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
             .block-expectation-bricks_small
               %h3 Lorem
-              %p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, dolor. Repellendus dignissimos ut quam at fugiat suscipit fuga explicabo illum voluptatibus animi exercitationem inventore placeat magni accusantium nisi, nostrum nulla?
+              %p Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             .block-expectation-bricks_big
               %h3 Lorem
               %p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, dolor. Repellendus dignissimos ut quam at fugiat suscipit fuga explicabo illum voluptatibus animi exercitationem inventore placeat magni accusantium nisi, nostrum nulla?
         .block-portfolio
-          .block-portfolio_1_odd
+          %h2 Мои работы
+          .block-portfolio_odd
             %img(src="./img/" alt="" width="544" height="384")/
-            %h3 Lorem
-            %a(href="#")
-            %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
-          .block-portfolio_2_even
+            .block-portfolio_side
+              %div
+                %h3 Lorem
+                %a(href="github.com") GitHub.com
+              %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
+          .block-portfolio_even
             %img(src="./img/" alt="" width="544" height="384")/
-            %h3 Lorem
-            %a(href="#")
-            %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
-          .block-portfolio_3_odd
+            .block-portfolio_side
+              %div
+                %h3 Lorem
+                %a(href="github.com") GitHub.com
+              %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
+          .block-portfolio_odd
             %img(src="./img/" alt="" width="544" height="384")/
-            %h3 Lorem
-            %a(href="#")
-            %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
-          .block-portfolio_4_even
+            .block-portfolio_side
+              %div
+                %h3 Lorem
+                %a(href="github.com") GitHub.com
+              %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
+          .block-portfolio_even
             %img(src="./img/" alt="" width="544" height="384")/
-            %h3 Lorem
-            %a(href="#")
-            %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
-        .block-contact
+            .block-portfolio_side
+              %div
+                %h3 Lorem
+                %a(href="github.com") GitHub.com
+              %p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam possimus veritatis velit doloribus illo eaque qui modi iste consequuntur ducimus similique corporis maxime nostrum ratione quaerat, inventore nam. Corrupti?
+        %footer
           %h2 Контактная информация
-          .block-contact_left-side
+          .footer_left-side
             %p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque a, debitis minima excepturi praesentium saepe, cupiditate iusto vel quisquam, necessitatibus similique maiores? Ea asperiores quaerat nesciunt sequi odit eius sint.
             %ul
               %li
@@ -63,7 +72,7 @@
                 %a(href="#")
               %li
                 %a(href="#")
-          .block-contact_right-side
+          .footer_right-side
             %form(action="mailto:97serdj97@gmail.com" method="post" enctype="multipart/form-data" autocomplete="on")
               %input(type="text" placeholder="Ваше имя" name="name" required)/
               %input(type="mail" placeholder="Почтовый ящик" name="mail" required)/

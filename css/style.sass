@@ -6,6 +6,9 @@ body
 h2,
 h3
     font-family: Helvetica-Bold
+    font-size: 40px
+h3
+    font-size: 24px
 p
     font-family: Georgia
 
@@ -40,7 +43,6 @@ p
             font-size: 24px
         
         h2
-            font-size: 40px
             margin-top: 11px
         
         p
@@ -52,13 +54,18 @@ p
 
 .block-expectation
     h2
-        font-size: 40px
         margin-top: 0
     
     &-bricks
         height: 448px
+        margin-top: 36px
         display: flex
         flex-flow: row wrap
+
+        p
+            font-size: 16px
+            line-height: 24px
+
         &_big,
         &_small
             background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%)
@@ -69,7 +76,10 @@ p
             box-sizing: border-box
             display: flex
             flex-direction: column
-            justify-content: space-around
+            justify-content: space-between
+
+            h3
+                margin-top: 0
 
         &_big
             width: 545px
@@ -83,3 +93,40 @@ p
         
         &_small
             width: 375px
+
+.block-portfolio
+    h2
+        margin-top: 129px
+        margin-bottom: 63px
+
+    &_odd,
+    &_even
+        display: flex
+        justify-content: space-between
+        margin-bottom: 145px
+    
+    &_even
+        flex-flow: nowrap row-reverse
+
+    &_side
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        width: 304px
+        height: 394px
+
+        h3
+            margin-top: 10px
+            margin-bottom: 8px
+
+        a
+            font-family: Georgia
+            font-size: 16px
+            color: #DD3E18
+            line-height: 24px
+            text-decoration: none
+        
+        p
+            opacity: 0.8
+            font-size: 16px
+            line-height: 24px
