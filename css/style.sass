@@ -2,7 +2,6 @@ body
     display: flex
     justify-content: center
     align-items: center
-    margin: 0
 
 h2,
 h3
@@ -146,47 +145,7 @@ footer
         
 .footer-side
     display: flex
-    padding-bottom: 146px
-
-    &_under
-        display: flex
-        flex-flow: wrap column
-        height: 150px
-        width: 944px
-        margin-top: 10%
-
-        a
-            display: flex
-            align-items: center
-            flex-direction: column
-            height: 150px
-            text-decoration: none
-
-            p
-                margin-top: 16px
-
-                font-family: Georgia
-                font-size: 16px
-                line-height: 24px
-        
-        a:hover
-            img
-                position: relative
-                animation-name: upsize
-                animation-duration: 1s
-                animation-delay: 0.1s
-
-            @keyframes upsize
-                0%
-                    margin-bottom: 0
-                    width: 64px
-                    height: 64px
-
-                100%
-                    margin-bottom: 30px
-                    width: 64*1.5px
-                    height: 64*1.5px
-
+    justify-content: space-between
 
     &_left
         width: 304px
@@ -194,23 +153,6 @@ footer
         p
             font-size: 16px
             line-height: 24px
-            margin-bottom: 0
-
-            &:first-child
-                margin-top: 0
-        
-        ul
-            margin-top: 0
-
-        ul li
-            list-style-type: none
-
-        ul li a
-            font-family: Georgia
-            font-size: 16px
-            color: #DD3E18
-            line-height: 32px
-            text-decoration: none
     
     &_right
         width: 544px
@@ -243,4 +185,3 @@ footer
                 font-size: 16px
                 color: #000000
                 line-height: 24px
-                padding: 10px
