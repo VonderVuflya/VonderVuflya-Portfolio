@@ -38,7 +38,7 @@
         justify-content: center
         align-items: center
         width: 768px
-        height: 1024px
+        height: 100%
 
         img
             height: 384px
@@ -81,6 +81,120 @@
             flex-direction: row
             width: 704px
             height: 147px
+            h3
+                margin-top: 0
+            
+            a
+            
+            p
+                margin-bottom: 15px
+
+@media screen and (max-width: 425px)
+    .container
+        width: 425px
+
+        &_main,
+        &_footer
+            width: 393px
+    
+    .header
+        width: 425px
+        height: 100%
+
+        img
+            height: 284px
+            width: 284px
+        
+        &_main-info
+            width: 393px
+            padding: 0
+
+            label
+                font-size: 24px
+            
+            h2
+                font-size: 40px
+            p
+                font-size: 20px
+                margin-top: 450px
+                width: 100%
+
+    .block-portfolio
+        h2
+            font-size: 40px
+            margin-bottom: 64px
+        
+        &_odd,
+        &_even
+            justify-content: center
+            align-items: center
+            flex-direction: column-reverse
+            margin-bottom: 96px
+
+            img
+                width: 393px
+                height: 221px
+
+        &_side
+            flex-direction: column
+            width: 393px
+            h3
+                margin-top: 0
+            
+            a
+            
+            p
+                margin-bottom: 15px
+
+@media screen and (max-width: 375px)
+    .container
+        width: 375px
+
+        &_main,
+        &_footer
+            width: 351px
+    
+    .header
+        width: 375px
+        height: 100%
+
+        img
+            height: 254px
+            width: 254px
+        
+        &_main-info
+            width: 351px
+            padding: 0
+
+            label
+                font-size: 24px
+            
+            h2
+                font-size: 40px
+            p
+                font-size: 20px
+                margin-top: 336px
+                width: 100%
+
+    .block-portfolio
+        h2
+            font-size: 40px
+            margin-bottom: 64px
+        
+        &_odd,
+        &_even
+            justify-content: center
+            align-items: center
+            flex-direction: column-reverse
+            margin-bottom: 96px
+
+            img
+                width: 351px
+                height: 197px
+
+        &_side
+            flex-direction: column
+            width: 351px
             h3
                 margin-top: 0
             

@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     width: 768px;
-    height: 1024px; }
+    height: 100%; }
     .header img {
       height: 384px;
       width: 384px;
@@ -65,6 +65,90 @@
     flex-direction: row;
     width: 704px;
     height: 147px; }
+    .block-portfolio_side h3 {
+      margin-top: 0; }
+    .block-portfolio_side p {
+      margin-bottom: 15px; } }
+@media screen and (max-width: 425px) {
+  .container {
+    width: 425px; }
+    .container_main, .container_footer {
+      width: 393px; }
+
+  .header {
+    width: 425px;
+    height: 100%; }
+    .header img {
+      height: 284px;
+      width: 284px; }
+    .header_main-info {
+      width: 393px;
+      padding: 0; }
+      .header_main-info label {
+        font-size: 24px; }
+      .header_main-info h2 {
+        font-size: 40px; }
+      .header_main-info p {
+        font-size: 20px;
+        margin-top: 450px;
+        width: 100%; }
+
+  .block-portfolio h2 {
+    font-size: 40px;
+    margin-bottom: 64px; }
+  .block-portfolio_odd, .block-portfolio_even {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-bottom: 96px; }
+    .block-portfolio_odd img, .block-portfolio_even img {
+      width: 393px;
+      height: 221px; }
+  .block-portfolio_side {
+    flex-direction: column;
+    width: 393px; }
+    .block-portfolio_side h3 {
+      margin-top: 0; }
+    .block-portfolio_side p {
+      margin-bottom: 15px; } }
+@media screen and (max-width: 375px) {
+  .container {
+    width: 375px; }
+    .container_main, .container_footer {
+      width: 351px; }
+
+  .header {
+    width: 375px;
+    height: 100%; }
+    .header img {
+      height: 254px;
+      width: 254px; }
+    .header_main-info {
+      width: 351px;
+      padding: 0; }
+      .header_main-info label {
+        font-size: 24px; }
+      .header_main-info h2 {
+        font-size: 40px; }
+      .header_main-info p {
+        font-size: 20px;
+        margin-top: 336px;
+        width: 100%; }
+
+  .block-portfolio h2 {
+    font-size: 40px;
+    margin-bottom: 64px; }
+  .block-portfolio_odd, .block-portfolio_even {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-bottom: 96px; }
+    .block-portfolio_odd img, .block-portfolio_even img {
+      width: 351px;
+      height: 197px; }
+  .block-portfolio_side {
+    flex-direction: column;
+    width: 351px; }
     .block-portfolio_side h3 {
       margin-top: 0; }
     .block-portfolio_side p {
